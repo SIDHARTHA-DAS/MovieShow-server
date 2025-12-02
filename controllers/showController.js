@@ -2,7 +2,6 @@ import axios from "axios"
 import Movie from "../models/Movie.js";
 import Show from "../models/Show.js";
 import { set } from "mongoose";
-import { inngest } from "../inngest/index.js";
 
 
 // api to get now playing movies from TMDB api
