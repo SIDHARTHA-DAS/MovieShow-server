@@ -37,7 +37,7 @@ export const stripeWebhooks  = async (req, res)=>{
 
         await inngest.send({
           name: "app/show.booked",
-          data: {bookingId}
+          data: { bookingId }
         })
         break;
       }
